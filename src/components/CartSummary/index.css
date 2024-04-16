@@ -1,0 +1,29 @@
+.cartsummary-section {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+  }
+  .cartsummary-ordertotal {
+    margin: 0px;
+    font-weight: 600;
+    color: #616e7c;
+  }
+  .total-price {
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #171f46;
+  }
+  .cartSummary-itemnum {
+    margin: 0px;
+    color: #616e7c;
+  }
+  .cartSummary-btn {
+    margin-top: 20px;
+    height: 35px;
+    background-color: #0b69ff;
+    border: 0px;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  
