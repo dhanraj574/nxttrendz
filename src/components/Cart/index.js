@@ -3,6 +3,7 @@ import CartListView from '../CartListView'
 import CartSummary from '../CartSummary'
 import CartContext from '../../context/CartContext'
 import EmptyCartView from '../EmptyCartView'
+import CartItem from "../CartItem"
 
 import './index.css'
 

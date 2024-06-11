@@ -74,7 +74,8 @@ const Payment = () => {
   )
 
   return (
-    <div className='payments-container'>
+    <div className="outer-payment">
+        <div className='payments-container'>
       {isOrderPlaced ? (
         <p className='success-message'>
           Your order has been placed successfully
@@ -100,6 +101,8 @@ const Payment = () => {
         </>
       )}
     </div>
+    </div>
+    
   )
 }
 
